@@ -7,9 +7,27 @@ Help do node Katas with minimul effort, lots of centralised documents on katas a
 
 - Setup with node latest, installing `pnpm` with with Jest and a basic sample to run, NVM and install 'pnpm'
 
+- When you hit the refactoring phase, check code for [code smells](https://refactoring.guru/refactoring/smells)
+
+- If you are pairing with people, make sure to discuss before hand the [pairing etiquette](https://www.thoughtworks.com/insights/blog/seven-principles-pair-programming-etiquette) of what will happen
+
+- Create a folder with README.md and keep your changes short and sweet
+
+- Make sure you use a timer https://cuckoo.team/ to ping pong between you
+
+- Make sure the code formatter and dev environment is working consistently before starting as this will just spoil the flow if it is not setup in a ping pong kinda way
+
+- Make sure as you as developing that follow [Beck's design](https://martinfowler.com/bliki/BeckDesignRules.html) rules:
+
+  - Passes the tests
+  - Reveals intention
+  - No duplication
+  - Fewest elements
+
 - **Environment** has only `pnpm test` and `pnpm watch`
 
   ```shell
+  # Test to check environment is working for all parties and a quick way of getting into things
    PASS  sum/sum.should.test.ts
     sum should
       ✓ sum two numbers (2 ms)
@@ -43,7 +61,7 @@ Help do node Katas with minimul effort, lots of centralised documents on katas a
 
 - There should be a vscode for setting vscode with prettier, add extension
 
-- This is how I set this up this project ready for you tp hit the ground running. 
+- This is how I set this up this project ready for you to hit the ground running
 
   - `pnpm` is fast and disk-efficient
 
