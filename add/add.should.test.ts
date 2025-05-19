@@ -16,6 +16,7 @@ describe('add should', () => {
   test.each([
     { values: [1, 2], expected: 3 },
     { values: [1, 2, 3], expected: 6 },
+    { values: [-1, -2], expected: -3 },
   ])('sum $values to equal $expected', ({ values, expected }) => {
     const actual = add(...values);
     expect(actual).toBe(expected);
