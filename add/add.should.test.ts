@@ -5,3 +5,7 @@ describe('add should', () => {
     expect(actual).toBe(3);
   });
 });
+
+function add(arg0: number, arg1: number): number {
+  return arg0 + arg1;
+}
