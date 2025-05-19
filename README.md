@@ -259,4 +259,4 @@ To create a reusable, well-documented kata framework that supports clean coding 
 
 # 📌 Summary
 
-Clear and deliberate communication isn’t ancillary to architecture—it’s foundational. Recognising the impact of organisational structure on technical structure helps avoid accidental complexity and encourages intentional system design.
+Clear and deliberate communication isn’t ancillary to architecture—it’s foundational. Recognising the impact of organisational structure on technical structure helps avoid accidental complexity and encourages intentional system design. Checkout the [Pull request](https://github.com/vfarah-if/NodeTestKit/pull/1/commits) example on a simple add kata for a basic take on this.
