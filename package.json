@@ -1,7 +1,7 @@
 {
-  "name": "TEST PNPM",
+  "name": "Node Test Kit",
   "version": "1.0.0",
-  "description": "Test using PNPM",
+  "description": "Test using PNPM, Jest and Typescript (actually your choice), for now, but will adapt for the future",
   "scripts": {
     "test": "jest",
     "watch": "jest --watchAll",
@@ -9,7 +9,7 @@
     "format": "prettier --write '*/**/*.{ts,tsx,js,json,md}'"
   },
   "keywords": [],
-  "author": "",
+  "author": "Vincent Farah",
   "license": "ISC",
   "packageManager": "pnpm@10.10.0",
   "devDependencies": {
