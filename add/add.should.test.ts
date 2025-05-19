@@ -6,4 +6,10 @@ describe('add should', () => {
 
     expect(actual).toBe(3);
   });
+
+  test('sum three numbers', () => {
+    const actual = add(1, 2, 3);
+
+    expect(actual).toBe(6);
+  });
 });
