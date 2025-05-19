@@ -1,3 +1,3 @@
-export const add = (a: number, b: number, c: number = 0): number => {
-  return a + b + c;
+export default (...values: Array<number>): number => {
+  return values.reduce((a, b) => a + b);
 };
