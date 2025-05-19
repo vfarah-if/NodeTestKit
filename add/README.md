@@ -35,3 +35,7 @@ add(1, 2, 3, 4); // ➞ 10
 add(-1, 1); // ➞ 0
 add(); // ➞ 0
 ```
+
+## Summary
+
+This branch will contain step by step example of how I would have done the sum kata, just as an example in the simplest and quickest form, see commit history for more.
