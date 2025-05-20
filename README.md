@@ -12,7 +12,7 @@ Help do node Katas with minimul effort, lots of centralised documents on katas a
 
 - When you hit the refactoring phase, check code for [code smells](https://refactoring.guru/refactoring/smells)
 
-- Create a *folder* with **README.md** and keep your changes short and sweet
+- Create a _folder_ with **README.md** and keep your changes short and sweet
 
 - Make sure you use a timer https://cuckoo.team/ to ping pong between you and remember to optimise your energy and attention span
 
@@ -25,7 +25,7 @@ Help do node Katas with minimul effort, lots of centralised documents on katas a
   - No **duplication**
   - **Fewest elements** - KISS
 
-- **Communication and respect** is your most effective life skill 
+- **Communication and respect** is your most effective life skill
 
 - **Environment** has only `pnpm test` to riun once and `pnpm watch` to keep it running as you kata away
 
@@ -45,13 +45,13 @@ Help do node Katas with minimul effort, lots of centralised documents on katas a
       ✓ sum [1, 2, 3, 4, 5] to equal 15
       ✓ sum [-1, -2, -3, -4, -5] to equal -15
       ✓ sum [-1, 2, -3, 4, -5] to equal -3
-  
+
   Test Suites: 1 passed, 1 total
   Tests:       12 passed, 12 total
   Snapshots:   0 total
   Time:        0.864 s
   Ran all test suites.
-  
+
   Watch Usage
    › Press f to run only failed tests.
    › Press o to only run tests related to changed files.
@@ -60,7 +60,7 @@ Help do node Katas with minimul effort, lots of centralised documents on katas a
    › Press q to quit watch mode.
    › Press Enter to trigger a test run.
   ```
-  
+
 - There should be a vscode for setting vscode with prettier, add extension
 
 - This is how I set this up this project ready for you to hit the ground running
@@ -118,13 +118,13 @@ Help do node Katas with minimul effort, lots of centralised documents on katas a
           ✓ should sum two numbers with negative
           ✓ should sum two numbers with zero
           ✓ should sum two numbers with decimal
-      
+
       Test Suites: 1 passed, 1 total
       Tests:       4 passed, 4 total
       Snapshots:   0 total
       Time:        0.554 s
       Ran all test suites.
-      
+
       Watch Usage: Press w to show more.
       ```
 
@@ -160,25 +160,25 @@ Help do node Katas with minimul effort, lots of centralised documents on katas a
 Effective pair programming enhances collaboration, knowledge sharing, and code quality. Adhering to these principles ensures productive and respectful sessions:
 
 1. **Optimise the Environment**
-    Ensure both developers are comfortable with the hardware setup. Accommodate individual IDE preferences to facilitate smooth collaboration.
+   Ensure both developers are comfortable with the hardware setup. Accommodate individual IDE preferences to facilitate smooth collaboration.
 2. **Prepare the Software**
-    Configure the development environment, tools, and dependencies beforehand to minimise disruptions during the session.
+   Configure the development environment, tools, and dependencies beforehand to minimise disruptions during the session.
 3. **Embrace Skill Diversity**
-    Pairing individuals with varying experience levels fosters mutual learning. Both the driver and the observer can gain valuable insights from each other.
+   Pairing individuals with varying experience levels fosters mutual learning. Both the driver and the observer can gain valuable insights from each other.
 4. **Maintain Focus**
-    Concentrate on the task at hand. Break down large tasks into manageable segments to tackle them sequentially.
+   Concentrate on the task at hand. Break down large tasks into manageable segments to tackle them sequentially.
 5. **Take Regular Breaks**
-    Incorporate short breaks to prevent fatigue and maintain high levels of concentration and productivity.
+   Incorporate short breaks to prevent fatigue and maintain high levels of concentration and productivity.
 6. **Rotate Pairings**
-    Regularly switch pairing partners to disseminate knowledge across the team and prevent information silos.
+   Regularly switch pairing partners to disseminate knowledge across the team and prevent information silos.
 7. **Respect Your Partner**
-    Communicate openly about schedules and changes. Pay attention to small details that can impact your partner's comfort and workflow.
+   Communicate openly about schedules and changes. Pay attention to small details that can impact your partner's comfort and workflow.
 
 ## 🧩 Communication & Conway's Law
 
 **Conway’s Law** states:
 
-> *“Any organisation that designs a system will produce a design whose structure is a copy of the organisation’s communication structure.”* — Melvin Conway, 1967
+> _“Any organisation that designs a system will produce a design whose structure is a copy of the organisation’s communication structure.”_ — Melvin Conway, 1967
 
 ### 🧠 Why Communication Matters
 
@@ -202,34 +202,32 @@ The CORE model offers a structured approach to delivering feedback that is both 
 ### 🔹 C — Context
 
 Specify the situation to ground the feedback.
- *Example*: "During yesterday's team meeting..."
+_Example_: "During yesterday's team meeting..."
 
 ### 🔹 O — Observation
 
 Describe the specific behaviour observed, avoiding interpretations or judgments.
- *Example*: "You interrupted the client before they finished explaining their concern."
+_Example_: "You interrupted the client before they finished explaining their concern."
 
 ### 🔹 R — Result
 
 Explain the impact of the behaviour on the team, project, or individual.
- *Example*: "This led to confusion about our proposed solution."
+_Example_: "This led to confusion about our proposed solution."
 
 ### 🔹 E — nExt stEps
 
 Suggest actionable steps or invite collaboration on solutions.
- *Example*: "In future meetings, let's ensure we allow clients to fully express their points before responding."([Radical Candor](https://www.radicalcandor.com/blog/care-personally-team))
+_Example_: "In future meetings, let's ensure we allow clients to fully express their points before responding."([Radical Candor](https://www.radicalcandor.com/blog/care-personally-team))
 
 By adhering to the CORE method, feedback becomes more structured and effective, promoting a culture of open communication and continuous improvement.
 
-------
+---
 
 For a deeper understanding, refer to the original article: [How To Give Candid Feedback With the Radical Candor CORE Method](https://www.radicalcandor.com/blog/how-to-give-feedback/).([Radical Candor](https://www.radicalcandor.com/blog/how-to-give-feedback/?utm_source=chatgpt.com))
 
+Here's a concise summary of your VS Code TODO utility list, suitable for a README or project planning document:
 
-
-Certainly, Vincent. Here's a concise summary of your VS Code TODO utility list, suitable for a README or project planning document:
-
-------
+---
 
 ## 📋 TODO Utility Summary
 
@@ -237,12 +235,12 @@ This utility outlines the plan to standardise and streamline kata-based developm
 
 ### 🛠 Tasks Overview
 
-| Priority   | Task                                                         |
-| ---------- | ------------------------------------------------------------ |
-| 🔴 Critical | Create a repo to standardise the approach using **Node.js** and **PNPM** |
+| Priority    | Task                                                                                  |
+| ----------- | ------------------------------------------------------------------------------------- |
+| 🔴 Critical | Create a repo to standardise the approach using **Node.js** and **PNPM**              |
 | 🟠 High     | Document a project skeleton and initialise a repo to establish foundational practices |
-| 🟡 Medium   | Develop a basic kata to serve as a quick-start demonstration of the methodology |
-| 🟢 Today    | Explore and present multiple ways of communicating the same concepts effectively |
+| 🟡 Medium   | Develop a basic kata to serve as a quick-start demonstration of the methodology       |
+| 🟢 Today    | Explore and present multiple ways of communicating the same concepts effectively      |
 
 ### 🎯 Goal
 
