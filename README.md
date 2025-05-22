@@ -27,7 +27,10 @@ Help do node Katas with minimul effort, lots of centralised documents on katas a
 
 - **Communication and respect** is your most effective life skill
 
-- **Environment** has only `pnpm test` to riun once and `pnpm watch` to keep it running as you kata away
+- **Environment** provides the following key commands:
+  - `pnpm test`: To run tests once.
+  - `pnpm watch`: To keep tests running as you kata away.
+  - `make all`: To clean the project, install dependencies, and then start the watch mode (`pnpm watch`).
 
   ```shell
   # Test to check environment is working for all parties and a quick way of getting into things
